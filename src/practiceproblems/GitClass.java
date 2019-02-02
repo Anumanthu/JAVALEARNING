@@ -9,6 +9,9 @@ public class GitClass {
 		
 		System.out.println("Git class added1");
 		
+		System.out.println("Git class added2");
+		
+		
 		
 
 	}
