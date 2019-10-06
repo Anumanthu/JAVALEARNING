@@ -22,7 +22,7 @@ public class OutOfMemoryException {
 		*/
 		
 		
-//You will receive java.lang.OutOfMemoryError Exception
+        //You will receive java.lang.OutOfMemoryError Exception
 		
 		
 	}

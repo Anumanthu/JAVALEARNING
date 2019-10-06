@@ -10,7 +10,6 @@ public class RemoveJunk {
 		//Regular expressions [^a-zA-Z0-9]
 		
 		str=str.replaceAll("[^a-zA-Z0-9]", "");
-		
 		System.out.println(str);
 
 	}

@@ -3,7 +3,7 @@ package practiceproblems;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class StingRepeated {
+public class StringRepeated {
 
 	String a = "25";
 	int b = Integer.parseInt(a);

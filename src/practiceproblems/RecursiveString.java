@@ -16,7 +16,4 @@ public class RecursiveString {
 	        String str = "Quora";
 	        System.out.println("Reverse of \'"+str+"\' is \'"+obj.reverse(str)+"\'");    
 	    }    
-	
-
-	
 }

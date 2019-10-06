@@ -44,13 +44,7 @@ public class IteratoraAndListIterator {
 		while(li.hasPrevious())   //Backward direction
 		{
 			System.out.print(li.previous()+" ");
-		}
-		
-		
-		
-
-			
-			
+		}		
 	}
 
 }

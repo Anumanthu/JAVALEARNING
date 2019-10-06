@@ -20,7 +20,7 @@ interface Iface1
 }
 interface Iface2
 {
-	int i2=9;
+	int i2=10;
 	void iface2method1();
 	int iface2method2();
 }
@@ -42,7 +42,7 @@ class A
 	{
 		A a=new A();
 		a.n1=20;
-		s1=30;
+		s1=30;//or a.s1=30; or A.s1=30; since this is static
 		a.n2=30;
 	}
 	
@@ -75,8 +75,8 @@ class C extends A implements Iface1,Iface2
 		
 		System.out.println(i1);
 		System.out.println(i2);
-		//i1=9;//compilation error
-		//i2=9;//compilation error
+		//i1=11;//compilation error
+		//i2=12;//compilation error
 		
 		return 0;
 	}
@@ -87,8 +87,8 @@ class C extends A implements Iface1,Iface2
 		System.out.println(i1);
 		System.out.println(i2);
 		
-		//i1=9;//compilation error
-		//i2=9;//compilation error
+		//i1=11;//compilation error
+		//i2=12;//compilation error
 	}
 
 	@Override
@@ -126,7 +126,7 @@ class B extends D
 		a.n1=10;
 		A.s1=20;
 		a.s1=40;
-		//a.n2=40;//compilation error
+		//a.n2=40;//compilation error n2 is private data memeber
 		
 		
 	}
@@ -137,9 +137,9 @@ class B extends D
 		a.n1=20;
 		A.s1=30;
 		a.s1=40;
-		//a.n2=40;//compilation error
+		//a.n2=40;//compilation error n2 is private data memeber
 		
-		//A.n2=40;//compilation error
+		//A.n2=40;//compilation error n2 is private data memeber
 	}
 
 	@Override

@@ -14,6 +14,8 @@ public class ArrayExample {
 	
 		//System.out.println(a[0]);
 		
+		int b1[][]= new int[3][2];
+		
 		int b[][]= {{5,6,7},{8,9,7}};
 		
 		int c[]=new int[3];//declaration of array

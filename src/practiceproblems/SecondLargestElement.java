@@ -1,4 +1,4 @@
-package javabasics;
+package practiceproblems;
 
 public class SecondLargestElement {
 	

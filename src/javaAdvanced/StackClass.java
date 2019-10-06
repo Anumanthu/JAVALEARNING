@@ -6,7 +6,7 @@ public class StackClass {
 
 	public static void main(String[] args) {
 		
-		Stack<Integer> s= new Stack();
+		Stack<Integer> s= new Stack<Integer>();
 		
 		//s.push("BCD");
 		s.push(50);

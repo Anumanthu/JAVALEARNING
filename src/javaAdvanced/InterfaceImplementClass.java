@@ -38,8 +38,12 @@ public class InterfaceImplementClass extends SuperClass implements Interface1,In
 		
 		
 		//obj1.x=20; this is wrong
+		
+		
 
 	}
+	
+	public void nonabstract() {};
 
 	
 
@@ -70,5 +74,13 @@ public void calc()
 		// TODO Auto-generated method stub
 		
 	}
+
+
+
+	//@Override
+	//public void add2() {
+		// TODO Auto-generated method stub
+		
+	//}
 
 }

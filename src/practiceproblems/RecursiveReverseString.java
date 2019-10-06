@@ -23,7 +23,6 @@ public class RecursiveReverseString {
 			reverse = reverse.append(orig.charAt(orig.length() - 1));
 			orig.deleteCharAt(orig.length() - 1);
 			recursive(orig, reverse);
-
 		}
 
 	}

@@ -15,6 +15,7 @@ public class ArrayListexample {
 		
 		ArrayList<String> a = new ArrayList<String>();
 		
+		
 		a.add("JAVA");
 		a.add("Selenium");
 		a.add("Selenium");
@@ -24,9 +25,8 @@ public class ArrayListexample {
 		a.add(1, "Divya");
 		System.out.println(a);
 		
-		//a.remove(1);
-		//a.remove("AVAJ");
-		
+		a.remove(1);
+		a.remove(a.indexOf("JAVA"));
 		//a.remove(a.get(1));
 		
 		//System.out.println(a);
@@ -60,15 +60,7 @@ public class ArrayListexample {
 		//System.out.println(a.size());
 		
 		//a.contains("Java");//It will check Java string present or not in ArrayList
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 	}
 
 }
