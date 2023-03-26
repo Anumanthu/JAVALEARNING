@@ -1,16 +1,14 @@
 package javaAdvanced;
 
-public class AbstractSuperClass extends AbstractClass{
+public class AbstractSuperClass extends AbstractClass {
 
-	@Override
-	public void login() {
-		
-		
-	}
-	
-	
-	AbstractSuperClass obj =new AbstractSuperClass();
-	
-	AbstractClass obj2=obj;
+    AbstractSuperClass obj = new AbstractSuperClass();
+    AbstractClass obj2 = obj;
+
+    @Override
+    public void login() {
+
+
+    }
 
 }

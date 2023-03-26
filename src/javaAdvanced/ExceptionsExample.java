@@ -2,36 +2,34 @@ package javaAdvanced;
 
 public class ExceptionsExample {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		ExceptionsExample obj = new ExceptionsExample();
-		int a = obj.exceptionHandler();
-		System.out.println(a);
+        ExceptionsExample obj = new ExceptionsExample();
+        int a = obj.exceptionHandler();
+        System.out.println(a);
 
-	}
+    }
 
-	public int exceptionHandler() {
-		int c;
-		int a = 0, b = 27;
+    public int exceptionHandler() {
+        int c;
+        int a = 0, b = 27;
 
-		try {
+        try {
 
-			c = b / a;
+            c = b / a;
 
-			// System.out.println(c);
+            // System.out.println(c);
 
-			return c;
+            return c;
 
-		} catch (Exception e) {
+        } catch (Exception e) {
 
-			System.out.println("Caught an exception" + e);
-		}
+            System.out.println("Caught an exception" + e);
+        } finally {
+            System.out.println("This is 100% executable code irrespective of try/catch block");
+        }
+        return 0;
 
-		finally {
-			System.out.println("This is 100% executable code irrespective of try/catch block");
-		}
-		return 0;
-
-	}
+    }
 
 }
